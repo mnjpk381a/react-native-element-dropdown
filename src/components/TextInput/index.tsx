@@ -83,6 +83,7 @@ const TextInputComponent: CTextInput = (props) => {
             placeholder={placeholder}
             placeholderTextColor={placeholderTextColor}
             onChangeText={onChange}
+            secureTextEntry={false}
           />
           {_renderRightIcon()}
         </View>
